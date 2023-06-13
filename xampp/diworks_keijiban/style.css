@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-top {
+    background-color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.header-top img {
+    width: 250px;
+}
+
+.header-bottom {
+    background-color: black;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    color: white;
+    margin-right: 3rem;
+}
+
+/* Main */
+main {
+    display: flex;
+}
+
+.left-column {
+    flex: 0 0 75%;
+    padding: 1rem;
+}
+
+.right-column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.div-line {
+    border-bottom: 2px solid;
+    border-bottom-color: gray;
+}
+
+.gray-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 2px solid #c0c0c0;
+}
+
+.gray-box img {
+    width: calc(25% - 1rem);
+    padding: 0.5rem;
+}
+
+.image-container {
+    display: inline-block;
+    text-align: center;
+    margin: 0.5rem;
+    width: calc(25% - 1rem);
+    vertical-align: top;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.image-container p {
+    margin: 0;
+}
+
+.articles,
+.links,
+.category {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.articles ul,
+.links ul,
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.articles li,
+.links li,
+.category li {
+    margin-bottom: 0.5rem;
+}
+
+.form-wrapper {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border: 2px solid #c0c0c0;
+}
+
+.post {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+
+
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #808080;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(71, 71, 71);
+}
+
+.form-wrapper h1 {
+    border-left: 4px solid red;
+    padding-left: 0.5rem;
+}
+
+.post-wrapper h3 {
+    border-bottom: 2px solid #c0c0c0;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
