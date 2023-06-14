@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* Header */
 header {
     background-color: black;
     color: white;
@@ -48,6 +48,7 @@ header {
     text-decoration: none;
 }
 
+/* Main */
 main {
     flex-grow: 1;
     display: flex;
@@ -64,6 +65,7 @@ main {
     padding: 20px;
 }
 
+/* Footer */
 footer {
     background-color: black;
     color: white;
